@@ -1,0 +1,64 @@
+Topics:
+
+  Finish CRUD in HTML, CSS, JS
+
+  Transition
+    scale ---> change the scale/size
+      scalex, scaley
+    
+    translate ---> move the element
+      translateX, translateY
+
+    rotate ---> rotate the element
+
+    skew ---> slant the element
+  Animation:
+    keyframes
+
+    animation
+
+Important To Revise:
+
+  HTML:
+
+    inline vs block
+
+    div vs span
+
+    input elements & attributes
+
+    form submit
+
+  CSS:
+
+    Ways to use CSS
+
+    priority of different CSS ways
+
+    Overrriding of priority
+
+    Box Model
+
+    Flex Box
+
+    Position
+
+    Overflow
+
+    measurements
+
+    media query
+  
+  JS:
+    array.loops (forEach, map, filter, find)
+    destructuring
+    hoisting
+    object ( key: value )
+
+  Simple Alogrigthms:
+    reverse a string
+    palindrome
+    factorial
+    sort
+    search
+
