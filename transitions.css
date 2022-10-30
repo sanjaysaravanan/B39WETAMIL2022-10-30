@@ -1,13 +1,13 @@
 .simple-transition {
   background-color: blue;
-  margin: 16px;
-  transition: background-color 1000ms ease;
+  /* margin: 16px; */
+  transition: all 2000ms ease;
   height: 100px;
   width: 100px;
 }
 
 .simple-transition:hover {
-  width: 90%;
+  width: 100%;
   background-color: brown;
 }
 
@@ -33,21 +33,34 @@
 }
 
 .s-translate:hover {
-  transform: translate(100px, -100px);
+  /* transform: translate(100px, -100px); */
+  transform: translateX(100px) translateY(-100px);
 }
+
+
+
 
 /* rotate */
 .s-rotate {
   background-color: blue;
   margin: 16px;
-  transition: all 500ms ease;
+  transition: all 2000ms ease;
   height: 100px;
   width: 100px;
+  color: white
 }
 
 .s-rotate:hover {
-  transform: translate(100px, 0) rotate(180deg);
+  transform: rotate(180deg);
 }
+
+
+
+
+
+
+
+
 
 .s-rotatex {
   background-color: blue;
@@ -55,10 +68,11 @@
   transition: all 1000ms ease;
   height: 100px;
   width: 100px;
+  color: white;
 }
 
 .s-rotatex:hover {
-  transform: rotateX(180deg);
+  transform: rotateX(360deg);
 }
 
 .s-rotatey {
@@ -67,12 +81,12 @@
   transition: all 1000ms ease;
   height: 100px;
   width: 100px;
+  color: white;
 }
 
 .s-rotatey:hover {
   transform: rotateY(180deg);
 }
-
 
 .s-skew {
   background-color: blue;
@@ -80,10 +94,11 @@
   transition: all 500ms ease;
   height: 100px;
   width: 100px;
+  color: white;
 }
 
 .s-skew:hover {
-  transform: skew(-30deg);
+  transform: skew(180deg, 30deg);
 }
 
 .m-2 {
@@ -93,33 +108,33 @@
 .triangle-up {
   width: 0;
   height: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 50px solid #00f;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #00f;
 }
 
 .triangle-down {
   width: 0;
   height: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-top: 50px solid #00f;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #00f;
 }
 
 .triangle-left {
   width: 0;
   height: 0;
-  border-top: 25px solid transparent;
-  border-right: 50px solid #00f;
-  border-bottom: 25px solid transparent;
+  border-top: 50px solid transparent;
+  border-right: 100px solid #00f;
+  border-bottom: 50px solid transparent;
 }
 
 .triangle-right {
   width: 0;
   height: 0;
-  border-top: 25px solid transparent;
-  border-left: 50px solid #00f;
-  border-bottom: 25px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #00f;
+  border-bottom: 50px solid transparent;
 }
 
 .triangle-topleft {

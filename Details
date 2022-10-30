@@ -3,6 +3,8 @@ Topics:
   Finish CRUD in HTML, CSS, JS
 
   Transition
+    changes in the system can be made smooth with transition
+
     scale ---> change the scale/size
       scalex, scaley
     
@@ -10,8 +12,10 @@ Topics:
       translateX, translateY
 
     rotate ---> rotate the element
+    rotateX, rotateY, rotateZ
 
     skew ---> slant the element
+
   Animation:
     keyframes
 
@@ -22,7 +26,6 @@ Important To Revise:
   HTML:
 
     inline vs block
-
     div vs span
 
     input elements & attributes
